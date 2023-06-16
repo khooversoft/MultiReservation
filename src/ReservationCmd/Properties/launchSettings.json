@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ReservationCmd": {
+      "commandName": "Project",
+      //"commandLineArgs": "customer set D:\\Projects\\MultiReservation\\ReservationCmd\\Data\\Customer_001.json"
+      "commandLineArgs": "customer --help"
+    }
+  }
+}

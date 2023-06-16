@@ -1,0 +1,7 @@
+{
+    "PlanId": "P001",
+    "PlanName": "Flight-100",
+    "SeatIds": [
+        "A1", "A2", "B1", "B2"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "CustomerId": "C001",
+  "CustomerName": "Customer 001",
+  "HomeAddress": {
+    "Type": "Home",
+    "Line1": "First street",
+    "Country": "USA",
+    "City": "Seattle",
+    "State": "WA",
+    "ZipCode": "99933"
+  },
+  "Phones": [
+    {
+      "Type": "Cell",
+      "Number": "333-555-1212"
+    }
+  ]
+}

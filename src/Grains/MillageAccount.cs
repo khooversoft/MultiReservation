@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Grains.Abstractions;
+using Grains.Abstractions.Models;
+using Microsoft.Extensions.Logging;
+using Orleans.Runtime;
+using Toolbox.Types;
+
+namespace Grains;
+
+public class MillageAccount : Grain, IMillageAccount
+{
+    //private readonly IPersistentState<PlaneModel?> _state;
+    //private readonly ILogger<MillageAccount> _logger;
+
+    //public MillageAccount(
+    //    [PersistentState(stateName: "Plan", storageName: "Plans")] IPersistentState<PlaneModel?> state,
+    //    ILogger<MillageAccount> logger
+    //    )
+    //{
+    //    _state = state;
+    //    _logger = logger;
+    //}
+
+    //public Task<PlaneModel?> Get()
+    //{
+    //    var option = _state.State switch
+    //    {
+    //        null => null,
+    //        PlaneModel v => v,
+    //    };
+
+    //    return Task.FromResult(option);
+    //}
+
+    //public async Task<StatusCode> Set(PlaneModel plan)
+    //{
+    //    try { plan.Verify(); }
+    //    catch { return StatusCode.BadRequest; }
+
+    //    string key = this.GetPrimaryKeyString();
+    //    if (key != plan.PlanId) return StatusCode.BadRequest;
+
+    //    _state.State = plan;
+    //    await _state.WriteStateAsync();
+
+    //    return StatusCode.OK;
+    //}
+
+    //public async Task Delete()
+    //{
+    //    _state.State = null;
+    //    await _state.WriteStateAsync();
+    //}
+}
